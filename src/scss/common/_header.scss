@@ -1,0 +1,19 @@
+.Header {
+	width: 80%;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	#gnb {
+		ul {
+			display: flex;
+			gap: 40px;
+		}
+	}
+	.util {
+		ul {
+			display: flex;
+			gap: 15px;
+		}
+	}
+}
