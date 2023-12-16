@@ -13,6 +13,9 @@
 			gap: 40px;
 			li {
 				font-size: 1.2rem;
+				.on {
+					color: blue;
+				}
 			}
 		}
 	}
