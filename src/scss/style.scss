@@ -1,9 +1,15 @@
 @import 'reset';
 
 @import './common/header';
+@import './common/Footer';
 
 @import './main/main';
 @import './main/visual';
 @import './main/news';
 @import './main/news1';
 @import './main/banner';
+
+@import './sub/department';
+@import './sub/gallery';
+@import './sub/location';
+@import './sub/youtube';
