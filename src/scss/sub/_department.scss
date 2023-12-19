@@ -1,0 +1,36 @@
+.Department {
+	width: 80%;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	h1 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.leftBox {
+		width: 20%;
+		h2 {
+			font-size: 3rem;
+		}
+	}
+	.rightBox {
+		width: 70%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		article {
+			width: 30%;
+
+			.pic {
+				width: 100%;
+				height: 200px;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+	}
+}
